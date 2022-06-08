@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mucluc {
+    margin: 0 auto;
+    width: 60%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.mucluc img {
+    float: left;
+    position: relative;
+}
+
+.mucluc ul {
+    padding-left: 410px;
+}
+
+.mucluc ul li {
+    display: inline-block;
+}
+
+.mucluc ul li a {
+    font-size: 12px;
+    font-family: 'montserratregular';
+    color: black;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.mucluc ul li a {
+    text-decoration: none;
+}
+
+.slide {
+    margin: 0 auto;
+    background: url(https://premiumlayers.com/html/sprint/images/slides/slide-1.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide .dd {
+    display: inline-block;
+    position: relative;
+}
+
+.slide .dd h1 {
+    font-size: 48px;
+    font-family: 'Joan', serif;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2.5px;
+}
+
+.slide .dd p {
+    font-size: 12px;
+    font-family: 'Droid Serif', serif;
+    letter-spacing: 5px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.about {
+    text-align: center;
+    margin: 40px auto;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 500px;
+}
+
+.about .p1 {
+    margin: 30px auto 70px auto;
+    width: 855px;
+}
+
+.about .p1 h2 {
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 26px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about .p1 p {
+    color: #989898;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'montserratlight';
+}
+
+.about .p2 {
+    margin: 30px auto;
+    width: 1170px;
+}
+
+.about .p2 div {
+    float: left;
+    width: 33.3%;
+    text-align: left;
+    list-style: none;
+}
+
+.about .p2 h3 {
+    margin: 15px 0;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about .p2 p {
+    color: #989898;
+    font-size: 15px;
+    line-height: 28px;
+    font-family: 'montserratlight';
+}
+
+.whychoose {
+    margin: 30px auto;
+    width: 60%;
+    height: 100%;
+    margin-bottom: 900px;
+}
+
+.whychoose .a {
+    margin: 100px auto;
+    float: left;
+    width: 476px;
+    border: 2px solid black;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    border: 1px solid #ececec;
+}
+
+.whychoose .a div {
+    list-style: none;
+}
+
+.whychoose .a div a {
+    font-size: 12px;
+    color: #444444;
+    letter-spacing: 2px;
+    border-radius: 0px;
+    display: inline-block;
+    text-align: center;
+    float: left;
+    width: 49.79%;
+    padding: 40px 0;
+    border-top: 1px solid #ececec;
+    border-left: 1px solid #ececec;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+
+.whychoose .a div a:hover {
+    background-color: black;
+    color: #ececec;
+}
+
+.whychoose .a div h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 10px 0;
+    font-size: 22px;
+    padding: 30px 0 0 20px;
+}
+
+.whychoose .a div h3 {
+    font-size: 16px;
+    font-weight: 300;
+    color: #666666;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 0;
+    padding: 20px 0 20px 20px;
+}
+
+.whychoose .a div p {
+    color: #989898;
+    font-size: 14px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 40px 0 20px;
+    line-height: 30px;
+}
+
+.whychoose .anh img {
+    top: 0px;
+    z-index: 1;
+}
+
+.whychoose .anh {
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.whychoose .anh .b {
+    width: 530px;
+    height: 214px;
+    background-color: black;
+    border: 1px solid #ececec;
+    z-index: 3;
+    opacity: 0.8;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    right: 0;
+}
+
+.whychoose .b p {
+    color: white;
+    margin: auto 30px;
+    text-align: left;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.contact {
+    list-style: none;
+}
+
+.contact .c {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+.contact .c h2 {
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.contact .c p {
+    font-size: 15px;
+    color: #989898;
+    margin-left: 10px;
+    margin-bottom: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact .d {
+    margin: 30px auto;
+    width: 45%;
+}
+
+.contact .d .d1 {
+    width: 100%;
+    display: flex;
+    order: 2;
+}
+
+.contact .d .d1 input {
+    border: 1px solid #444444;
+    width: 50%;
+    height: 47px;
+    margin: 0 0 20px 0;
+    padding: 0 15px;
+}
+
+.contact .d .d11 {
+    width: 100%;
+    display: flex;
+    order: 2;
+}
+
+.contact .d .d11 input {
+    border: 1px solid #444444;
+    width: 50%;
+    height: 47px;
+    margin: 0 0 20px 0;
+    padding: 0 15px;
+}
+
+.contact .d .d2 {
+    width: 100%;
+    list-style: none;
+    height: auto;
+}
+
+.contact .d .d2 input {
+    border: 1px solid #444444;
+    width: 96.5%;
+    display: inline-block;
+    height: auto;
+    height: 208px !important;
+    padding: 0 15px;
+}
+
+.contact .d .d3 button {
+    width: 25%;
+    height: 50px;
+    margin: 20px 0px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.end {
+    text-align: center;
+    width: 100%;
+    display: flex;
+}
+
+.end .end1 {
+    width: 50%;
+    background-color: #444444;
+    color: white;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    line-height: 28px;
+    font-family: 'montserratlight';
+    letter-spacing: 1px;
+}
+
+.end .end2 {
+    width: 50%;
+    background-color: #333333;
+    color: white;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.end .end2 .icon i {
+    font-size: 12px;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    line-height: 34px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.end .end2 p {
+    position: relative;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+}
+
+
+}
