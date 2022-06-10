@@ -8,16 +8,13 @@
     width: 60%;
     height: 10vh;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
 .mucluc img {
     float: left;
     position: relative;
-}
-
-.mucluc ul {
-    padding-left: 410px;
 }
 
 .mucluc ul li {
@@ -31,9 +28,6 @@
     position: relative;
     padding-right: 15px;
     padding-left: 15px;
-}
-
-.mucluc ul li a {
     text-decoration: none;
 }
 
@@ -41,6 +35,8 @@
     margin: 0 auto;
     background: url(https://premiumlayers.com/html/sprint/images/slides/slide-1.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     width: 100%;
     height: 100%;
     text-align: center;
@@ -75,12 +71,11 @@
     margin: 40px auto;
     width: 100%;
     height: 100%;
-    padding-bottom: 500px;
 }
 
 .about .p1 {
     margin: 30px auto 70px auto;
-    width: 855px;
+    width: 50%;
 }
 
 .about .p1 h2 {
@@ -100,12 +95,18 @@
 
 .about .p2 {
     margin: 30px auto;
-    width: 1170px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .p2 div img {
+    width: 100%;
 }
 
 .about .p2 div {
     float: left;
-    width: 33.3%;
+    width: 32%;
     text-align: left;
     list-style: none;
 }
@@ -126,21 +127,24 @@
 }
 
 .whychoose {
-    margin: 30px auto;
+    margin: 0px auto;
     width: 60%;
     height: 100%;
-    margin-bottom: 900px;
+    display: flex;
+    justify-content: end;
 }
 
 .whychoose .a {
-    margin: 100px auto;
+    margin: 0px auto;
     float: left;
-    width: 476px;
+    width: 60%;
     border: 2px solid black;
-    position: absolute;
-    z-index: 2;
+    z-index: 4;
     background-color: white;
     border: 1px solid #ececec;
+    position: absolute;
+    top: 15%;
+    left: -45%;
 }
 
 .whychoose .a div {
@@ -155,7 +159,7 @@
     display: inline-block;
     text-align: center;
     float: left;
-    width: 49.79%;
+    width: 49%;
     padding: 40px 0;
     border-top: 1px solid #ececec;
     border-left: 1px solid #ececec;
@@ -196,33 +200,31 @@
 }
 
 .whychoose .anh img {
-    top: 0px;
-    z-index: 1;
+    z-index: 3;
+    width: 100%;
 }
 
 .whychoose .anh {
-    position: relative;
     display: flex;
     justify-content: end;
-}
-
-.clear-both {
-    clear: both;
+    width: 70%;
+    position: relative;
+    margin-bottom: 100px;
 }
 
 .whychoose .anh .b {
-    width: 530px;
-    height: 214px;
+    width: 67%;
+    height: 32%;
     background-color: black;
     border: 1px solid #ececec;
-    z-index: 3;
+    z-index: 4;
     opacity: 0.8;
-    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
     bottom: 0;
     right: 0;
+    position: absolute;
 }
 
 .whychoose .b p {
@@ -314,6 +316,7 @@
     margin: 20px 0px;
     background-color: black;
     color: aliceblue;
+    font-size: 12px;
 }
 
 .end {
@@ -341,47 +344,246 @@
     background-color: #333333;
     color: white;
     height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+.end .end2 .icon {
+    margin: 60px 0 20px 0;
 }
 
 .end .end2 .icon i {
-    font-size: 12px;
+    font-size: 15px;
     border: 1px solid white;
     border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    line-height: 34px;
+    height: 38px;
+    width: 38px;
+    line-height: 38px;
     display: inline-block;
     align-items: center;
     justify-content: center;
 }
 
 .end .end2 p {
-    position: relative;
     font-size: 13px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
 }
 
-
 @media only screen and (max-width: 575px) {
-
+    .mucluc {
+        width: 100%;
+    }
+    .slide .dd p {
+        font-size: 7px;
+    }
+    .slide .dd h1 {
+        font-size: 20px;
+    }
+    .about .p2 {
+        display: block;
+    }
+    .about .p2 div {
+        width: 100%;
+    }
+    .whychoose .a {
+        width: 100%;
+        left: 0;
+        top: 0;
+        position: relative;
+    }
+    .whychoose .anh {
+        width: 100%;
+        display: inline-block;
+    }
+    .whychoose .anh .b {
+        height: 20%;
+        width: 100%;
+    }
+    .contact .d .d1 {
+        display: block;
+    }
+    .contact .d .d1 input {
+        width: 100%;
+    }
+    .contact .d .d11 {
+        display: block;
+    }
+    .contact .d .d11 input {
+        width: 100%;
+    }
+    .contact .d .d2 input {
+        width: 100%;
+    }
+    .contact .d .d3 button {
+        width: 40%;
+    }
+    .end {
+        display: block;
+    }
+    .end .end1 {
+        width: 100%;
+    }
+    .end .end2 {
+        width: 100%;
+    }
+    .end .end2 .icon {
+        padding-top: 60px;
+        margin: 0px 0 20px 0;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-
+    .mucluc {
+        width: 100%;
+    }
+    .slide .dd p {
+        font-size: 10px;
+    }
+    .slide .dd h1 {
+        font-size: 30px;
+    }
+    .about .p2 {
+        display: block;
+    }
+    .about .p2 div {
+        width: 100%;
+    }
+    .whychoose .a {
+        width: 100%;
+        left: 0;
+        top: 0;
+        position: relative;
+    }
+    .whychoose .anh {
+        width: 100%;
+        display: inline-block;
+    }
+    .whychoose .anh .b {
+        height: 20%;
+        width: 100%;
+    }
+    .contact .d .d1 {
+        display: block;
+    }
+    .contact .d .d1 input {
+        width: 100%;
+    }
+    .contact .d .d11 {
+        display: block;
+    }
+    .contact .d .d11 input {
+        width: 100%;
+    }
+    .contact .d .d2 input {
+        width: 100%;
+    }
+    .contact .d .d3 button {
+        width: 40%;
+    }
+    .end {
+        display: block;
+    }
+    .end .end1 {
+        width: 100%;
+    }
+    .end .end2 {
+        width: 100%;
+    }
+    .end .end2 .icon {
+        padding-top: 60px;
+        margin: 0px 0 20px 0;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-
+    .mucluc {
+        width: 95%;
+    }
+    .slide .dd h1 {
+        font-size: 40px;
+    }
+    .about .p2 {
+        display: block;
+    }
+    .about .p2 div {
+        width: 100%;
+    }
+    .whychoose .a {
+        width: 100%;
+        left: 0;
+        top: 0;
+        position: relative;
+    }
+    .whychoose .anh {
+        width: 100%;
+        display: inline-block;
+    }
+    .whychoose .anh .b {
+        height: 20%;
+        width: 100%;
+    }
+    .contact .d .d1 {
+        display: block;
+    }
+    .contact .d .d1 input {
+        width: 100%;
+    }
+    .contact .d .d11 {
+        display: block;
+    }
+    .contact .d .d11 input {
+        width: 100%;
+    }
+    .contact .d .d2 input {
+        width: 100%;
+    }
+    .contact .d .d3 button {
+        width: 40%;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-
+    .mucluc {
+        width: 74%;
+    }
+    .whychoose .a {
+        width: 100%;
+        left: 0;
+        top: 0;
+        position: relative;
+    }
+    .whychoose .anh {
+        width: 100%;
+        display: inline-block;
+    }
+    .whychoose .anh .b {
+        height: 20%;
+        width: 100%;
+    }
+    .contact .d .d1 {
+        display: block;
+    }
+    .contact .d .d1 input {
+        width: 100%;
+    }
+    .contact .d .d11 {
+        display: block;
+    }
+    .contact .d .d11 input {
+        width: 100%;
+    }
+    .contact .d .d2 input {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-
+    .mucluc {
+        width: 61%;
+    }
+    .whychoose {
+        margin-bottom: 100px;
+    }
+    .contact .d .d2 input {
+        width: 94.5%;
+    }
 }
