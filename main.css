@@ -10,6 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .mucluc img {
@@ -33,13 +34,16 @@
 
 .topnav {
     width: 50%;
-    height: 5vh;
-    overflow: hidden;
-    position: relative;
+    position: absolute;
+    background-color: white;
+    right: 0;
+    top: 10vh;
+    height: max-content;
+    z-index: 2;
 }
 
 .topnav #myLinks {
-    display: none;
+    /* display: none; */
 }
 
 .topnav a {
@@ -405,6 +409,8 @@
 @media only screen and (max-width: 575px) {
     .mucluc {
         width: 90%;
+        margin-right: 0;
+        padding-right: 5%;
     }
     .mucluc ul {
         display: none;
@@ -476,17 +482,22 @@
         width: 100%;
     }
     .end .end2 .icon {
-        padding-top: 60px;
+        padding-top: 40px;
         margin: 0px 0 20px 0;
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .mucluc {
-        width: 100%;
+        width: 95%;
+        margin-right: 0;
+        padding-right: 2.5%;
     }
-    .mucluc .topnav {
+    .mucluc ul {
         display: none;
+    }
+    .mucluc #menu2 .topnav {
+        width: 30%;
     }
     .slide .dd p {
         font-size: 10px;
@@ -551,7 +562,7 @@
     .mucluc {
         width: 95%;
     }
-    .mucluc .topnav {
+    .mucluc #menu2 {
         display: none;
     }
     .slide .dd h1 {
@@ -601,7 +612,7 @@
     .mucluc {
         width: 74%;
     }
-    .mucluc .topnav {
+    .mucluc #menu2 {
         display: none;
     }
     .whychoose .a {
@@ -639,7 +650,7 @@
     .mucluc {
         width: 61%;
     }
-    .mucluc .topnav {
+    .mucluc #menu2 {
         display: none;
     }
     .whychoose {
@@ -647,5 +658,11 @@
     }
     .contact .d .d2 input {
         width: 94.5%;
+    }
+}
+
+@media only screen and (min-width: 1399px) {
+    .mucluc #menu2 {
+        display: none;
     }
 }
