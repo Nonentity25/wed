@@ -197,12 +197,17 @@
     display: inline-block;
     text-align: center;
     float: left;
-    width: 49%;
+    width: 49.7%;
     padding: 40px 0;
-    border-top: 1px solid #ececec;
-    border-left: 1px solid #ececec;
+    border-top: 0.1px solid #ececec;
+    border-left: 0.1px solid #ececec;
     text-decoration: none;
     transition: 0.3s background-color;
+}
+
+#a1 {
+    background-color: black;
+    color: white;
 }
 
 .whychoose .a div a:hover {
@@ -309,28 +314,30 @@
     width: 100%;
     display: flex;
     order: 2;
+    justify-content: space-between;
 }
 
 .contact .d .d1 input {
-    border: 1px solid #444444;
-    width: 50%;
+    border: 1px solid #989898;
+    width: 46%;
     height: 47px;
     margin: 0 0 20px 0;
-    padding: 0 15px;
+    padding-left: 15px;
 }
 
 .contact .d .d11 {
     width: 100%;
     display: flex;
     order: 2;
+    justify-content: space-between;
 }
 
 .contact .d .d11 input {
-    border: 1px solid #444444;
-    width: 50%;
+    border: 1px solid #989898;
+    width: 46%;
     height: 47px;
     margin: 0 0 20px 0;
-    padding: 0 15px;
+    padding-left: 15px;
 }
 
 .contact .d .d2 {
@@ -340,12 +347,12 @@
 }
 
 .contact .d .d2 input {
-    border: 1px solid #444444;
-    width: 96.5%;
+    border: 1px solid #989898;
+    width: 100%;
     display: inline-block;
     height: auto;
     height: 208px !important;
-    padding: 0 15px;
+    padding-left: 15px;
 }
 
 .contact .d .d3 button {
@@ -355,6 +362,11 @@
     background-color: black;
     color: aliceblue;
     font-size: 12px;
+}
+
+.contact .d .d3 button a {
+    text-decoration: none;
+    color: aliceblue;
 }
 
 .end {
@@ -458,16 +470,16 @@
         display: block;
     }
     .contact .d .d1 input {
-        width: 100%;
+        width: -webkit-fill-available;
     }
     .contact .d .d11 {
         display: block;
     }
     .contact .d .d11 input {
-        width: 100%;
+        width: -webkit-fill-available;
     }
     .contact .d .d2 input {
-        width: 100%;
+        width: -webkit-fill-available;
     }
     .contact .d .d3 button {
         width: 40%;
@@ -656,13 +668,19 @@
     .whychoose {
         margin-bottom: 100px;
     }
+    .whychoose .a div a {
+        width: 49.6%;
+    }
     .contact .d .d2 input {
-        width: 94.5%;
+        width: 97%;
     }
 }
 
 @media only screen and (min-width: 1399px) {
     .mucluc #menu2 {
         display: none;
+    }
+    .contact .d .d2 input {
+        width: 97%;
     }
 }
