@@ -43,7 +43,7 @@
 }
 
 .topnav #myLinks {
-    /* display: none; */
+    display: none;
 }
 
 .topnav a {
@@ -159,7 +159,7 @@
 
 .about .p2 p {
     color: #989898;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 28px;
     font-family: 'montserratlight';
 }
@@ -400,7 +400,7 @@
     margin: 60px 0 20px 0;
 }
 
-.end .end2 .icon i {
+.end .end2 .icon a i {
     font-size: 15px;
     border: 1px solid white;
     border-radius: 50%;
@@ -410,6 +410,23 @@
     display: inline-block;
     align-items: center;
     justify-content: center;
+    color: aliceblue;
+    transition: 0.3s background-color boder-color;
+}
+
+.end .end2 .icon #fb :hover {
+    background-color: #3b5a9b;
+    border-color: #3b5a9b;
+}
+
+.end .end2 .icon #tw :hover {
+    background-color: #2baae1;
+    border-color: #2baae1;
+}
+
+.end .end2 .icon #in :hover {
+    background-color: #0072b2;
+    border-color: #0072b2;
 }
 
 .end .end2 p {
@@ -455,6 +472,9 @@
     .whychoose .anh {
         width: 100%;
         display: inline-block;
+    }
+    .whychoose .a div a {
+        width: 49.6%;
     }
     .whychoose .anh .b {
         height: 20%;
@@ -681,6 +701,6 @@
         display: none;
     }
     .contact .d .d2 input {
-        width: 97%;
+        width: 98%;
     }
 }
