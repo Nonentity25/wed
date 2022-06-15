@@ -441,6 +441,9 @@
         margin-right: 0;
         padding-right: 5%;
     }
+    .slide {
+        height: 30vh;
+    }
     .mucluc ul {
         display: none;
     }
@@ -451,7 +454,7 @@
         font-size: 15px;
     }
     .about .p1 {
-        width: 100%;
+        width: 90%;
     }
     .about .p2 {
         display: block;
@@ -459,9 +462,10 @@
     }
     .about .p2 div {
         width: 100%;
+        margin-bottom: 50px;
     }
     .whychoose {
-        width: 100%;
+        width: 90%;
     }
     .whychoose .a {
         width: 100%;
@@ -481,10 +485,10 @@
         width: 100%;
     }
     .contact .c {
-        width: 100%;
+        width: 90%;
     }
     .contact .d {
-        width: 100%;
+        width: 90%;
     }
     .contact .d .d1 {
         display: block;
@@ -542,6 +546,7 @@
     }
     .about .p2 div {
         width: 100%;
+        margin-bottom: 40px;
     }
     .whychoose .a {
         width: 100%;
@@ -605,6 +610,7 @@
     }
     .about .p2 div {
         width: 100%;
+        margin-bottom: 50px;
     }
     .whychoose .a {
         width: 100%;
